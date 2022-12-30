@@ -13,9 +13,7 @@ export const Wellcome = () => {
         <h2>
             Seja bem-vindo
         </h2>
-        <p>
-            Click no botão abaixo para começar:
-        </p>
+        <p>Click no botão abaixo para começar:</p>
         <button onClick={() => dispatch({type:"CHANGE_STATE"})}>
             Iniciar
         </button>
